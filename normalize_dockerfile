@@ -1,0 +1,4 @@
+FROM ubuntu
+WORKDIR normalize-solution
+COPY normalize.sh /bin
+COPY input.txt .
